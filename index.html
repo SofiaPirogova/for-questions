@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <!-- Все оверлеи и картинки правильно работают через лайф сервер.
+Но через ссылку гитхаба способ как нас учили дает глюк при обновлении страницы с оверлеем
++не отображаются файлы,имеющие заглавные буквы в названии -->
+  <!-- СУТЬ ВОПРОСА ГРУППЫ -->
+  <!-- когда мы видим, что такое выдает сайт, через который выкладываем или браузер - как нам понять, где ошибка
+как понять куда смотреть и что не так? -->
+  <!--P.S. Например насчет файлов с большой буквы нам объяснил Репета изначально, что Гитхаб на Линуксе сервера
+и там по другому чувствуется регистр букв.Что еще мы должны такого специфического знать - или где мы можем посмотреть, если что? -->
+  <body>
+    <div class="gallery-back">
+      <h2>Cпобособ ментора</h2>
+      <div class="main-img-gallery">
+        <img
+          class="img-gallery"
+          src="./images/gallery/book.jpg"
+          alt="Дизайн издания Лимитед Едишн"
+          width="370"
+          height="294"
+        />
+        <div class="overlay-gallery">
+          Технокряк это современная площадка распространения коронавируса.
+          Компании используют эту платформу для цифрового шпионажа и атак на
+          защищённые сервера конкурентов.
+        </div>
+      </div>
+      <div class="bordering">
+        <h2 class="heading-gallery">
+          Издание <span lang="en">Limited Edition</span>
+        </h2>
+        <p class="desc">Дизайн</p>
+      </div>
+    </div>
+
+    <div class="gallery-back">
+      <h2>Как нас учили сначала</h2>
+      <div class="main-img-gallery">
+        <img
+          class="img-gallery"
+          src="./images/gallery/book.jpg"
+          alt="Дизайн издания Лимитед Едишн"
+          width="370"
+          height="294"
+        />
+        <div class="second-overlay-gallery">
+          Технокряк это современная площадка распространения коронавируса.
+          Компании используют эту платформу для цифрового шпионажа и атак на
+          защищённые сервера конкурентов.
+        </div>
+      </div>
+      <div class="bordering">
+        <h2 class="heading-gallery">
+          Издание <span lang="en">Limited Edition</span>
+        </h2>
+        <p class="desc">Дизайн</p>
+      </div>
+    </div>
+    <div class="gallery-back">
+      <h2>Без оверлея, файл картинки с заглавной буквы</h2>
+      <div class="main-img-gallery">
+        <img
+          class="img-gallery"
+          src="./images/gallery/Book-second.jpg"
+          alt="Дизайн издания Лимитед Едишн"
+          width="370"
+          height="294"
+        />
+      </div>
+      <div class="bordering">
+        <h2 class="heading-gallery">
+          Издание <span lang="en">Limited Edition</span>
+        </h2>
+        <p class="desc">Дизайн</p>
+      </div>
+    </div>
+  </body>
+</html>
