@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style-2.css" />
+  </head>
+  <body>
+    <section>
+      <svg class="icon-hell">
+        <use href="./images/gallery/sprite.svg#logo-hell"></use>
+      </svg>
+    </section>
+    <header class="header header-center">
+      <button
+        type="button"
+        class="button-header-mobile"
+        aria-expanded="false"
+        aria-controls="div-nav-contacts"
+        data-menu-button
+      >
+        <svg
+          width="40px"
+          height="40px"
+          aria-label="Переключатель мобильного меню"
+        >
+          <use
+            class="icon-menu-mobile"
+            href="./images/svg/sprite-menu-mobile.svg#icon-menu-mobile"
+          ></use>
+          <use
+            class="icon-menu-close-mobile"
+            href="./images/svg/sprite-menu-mobile.svg#icon-menu-close-mobile"
+          ></use>
+        </svg>
+      </button>
+
+      <div class="div-nav-contacts" id="div-nav-contacts" data-menu>
+        <nav class="nav-flex">
+          <ul class="site-nav list">
+            <li class="space">
+              <a href="./index.html" class="link current link-push-line"
+                >Студия</a
+              >
+            </li>
+            <li class="space">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="space">
+              <a href="" class="link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script src="./js/menu-mobile.js"></script>
+  </body>
+</html>

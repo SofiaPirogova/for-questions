@@ -1,0 +1,74 @@
+@media screen and (max-width: 767px) {
+  header {
+    width: 480px;
+  }
+}
+body {
+  position: relative;
+  background-color: cadetblue;
+}
+.icon-hell {
+  --color3: white;
+  --color7: blue;
+}
+.header {
+  padding: 25px 0px;
+  border-bottom: 1px solid var(--border-header);
+  height: 80px;
+
+  .header-center {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-nav-contacts {
+    display: none;
+    background-color: var(--clean-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    padding: 48px 83px 48px 40px;
+
+    .mobile-end-window {
+      position: fixed;
+      bottom: 40px;
+      left: 40px;
+    }
+
+    &.is-open-header-menu {
+      display: block;
+    }
+    .space {
+      margin-bottom: 32px;
+    }
+
+    .contacts {
+      display: flex;
+      flex-direction: column-reverse;
+      .contacts-li {
+        margin-bottom: 32px;
+
+        .icon-contacts {
+          display: none;
+        }
+      }
+    }
+    .header-mobile-social {
+      display: flex;
+      margin-top: 32px;
+      margin-left: -10px;
+
+      .header-mobile-social-list {
+        padding: 0px 10px;
+        border-right: 1px solid var(--input-modal-border);
+      }
+    }
+  }
+}
